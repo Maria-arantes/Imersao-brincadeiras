@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brincadeiras Infantis</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Nerko+One&family=Signika:wght@300..700&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Brincadeiras Infantis</h1>
+    </header>
+
+    <main>
+        <section>
+            <input type="text" placeholder="Aprenda mais sobre uma brincadeira infantil:" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+
+        <!-- Seção de Sugestões -->
+<section class="sugestoes" id="sugestoes" style="display: none;">
+    <h2>Disponíveis:</h2>
+    <ul id="lista-sugestoes"></ul>
+</section>
+
+
+    </main>
+
+    <footer>
+        <p>2024 - Brincadeiras Infantis. Todos direitos reservados</p>
+        <p>Entre em contato pelo email: mariaeduardamearantes@gmail.com</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
